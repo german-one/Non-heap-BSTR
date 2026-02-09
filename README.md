@@ -38,6 +38,10 @@ documentation](https://learn.microsoft.com/en-us/previous-versions/windows/deskt
   } varname;
 ```
 
+The memory layout allows for a deeper insight into the implementation though:  
+
+![memory layout](./memory_layout.jpg)  
+
 ----
 There cannot be just a single type declaration because the length of the
 buffer array varies depending on the string to represent. In the

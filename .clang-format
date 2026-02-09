@@ -1,0 +1,36 @@
+---
+Language: Cpp
+BasedOnStyle: Microsoft
+AccessModifierOffset: -4
+AlignAfterOpenBracket: BlockIndent
+AlignTrailingComments: false
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowShortFunctionsOnASingleLine: All
+Macros:
+    - defer=[]()
+BinPackArguments: false
+BinPackParameters: false
+BreakBeforeBraces: Linux
+ColumnLimit: 0
+ContinuationIndentWidth: 2
+Cpp11BracedListStyle: false
+IncludeBlocks: Regroup
+IncludeCategories:
+  - Regex: '^".*"'
+    Priority: 1
+  - Regex: '^<.*>'
+    Priority: 2
+  - Regex: '.*'
+    Priority: 3
+IndentPPDirectives: AfterHash
+IndentWidth: 2
+InsertNewlineAtEOF: true
+LineEnding: CRLF
+MaxEmptyLinesToKeep: 1
+NamespaceIndentation: All
+PointerAlignment: Right
+SeparateDefinitionBlocks: Always
+SortIncludes: false
+SpaceAfterTemplateKeyword: false
+TabWidth: 2
+UseTab: Never
